@@ -8,7 +8,7 @@ yay nerd-fonts-hack;
 yay light-git;
 
 sudo pacman -S --needed xorg xorg-xinit xorg-xrandr xorg-xsetroot libx11 libxft libxinerama \
-	polkit lxsession picom dunst xwallpaper pamixer playerctl;
+	polkit lxsession picom dunst xwallpaper pamixer playerctl lxsession pcmanfm kvantum-qt5;
 
 mkdir -p $HOME/.config/suckless;
 
