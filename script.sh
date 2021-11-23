@@ -25,7 +25,7 @@ sudo make clean install;
 cd $HOME/.config/suckless/slstatus-vostro5415;
 sudo make clean install;
 
-sudo cp /etc/X11/xinit/xinitrc $HOME/.xinitrc;
+cp /etc/X11/xinit/xinitrc $HOME/.xinitrc;
 echo "exec dwm" >> $HOME/.xinitrc;
 
 echo 'if [ "$(tty)" = "/dev/tty1" ]; then
